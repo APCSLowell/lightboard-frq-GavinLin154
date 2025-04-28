@@ -32,8 +32,8 @@ public class LightBoard
   {
     /* to be implemented in part (b) */
    int numOn = 0;
-    for(int c = 0; c < lights[row].length; c++) {
-      if(lights[row][c]) {
+    for(int r = 0; r < lights.length; c++) {
+      if(lights[r][col]) {
         numOn++;
       }  
     }
