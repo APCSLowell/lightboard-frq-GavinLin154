@@ -12,8 +12,8 @@ public class LightBoard
   {
     /* to be implemented in part (a) */
     int probability = 0;
-    for(int r = 0; r < lights.length; r++) {
-      for(int c = 0; c < lights[r].length; c++) {
+    for(int r = 0; r < numRows; r++) {
+      for(int c = 0; c < numCols; c++) {
         probability = (int)(Math.random() * 10);
         if(probability <= 3) {
           lights[r][c] = true;
